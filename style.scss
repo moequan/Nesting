@@ -136,7 +136,7 @@ a {
   
 } 
 }
-@media screen and (min-width: $Tablet) {
+@media screen and (min-width: $tablet) {
     .card {
         flex-flow: row nowrap;
         align-items: flex-start;
@@ -166,7 +166,7 @@ a {
     }
 }
 
-@media screen and (min-width:$Desktop) {
+@media screen and (min-width:$desktop) {
     .cards {
         flex-flow: row wrap;
         justify-content: center;
