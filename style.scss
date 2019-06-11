@@ -20,7 +20,7 @@ $rem: 1rem;
 
 nav { 
     ul {
-        display: $Flex;
+        display: $flex;
         justify-content: center;
         align-items: center;
         height: 4rem;
@@ -78,7 +78,7 @@ h1 {
 
 }
  .card {
-    display: $Flex;
+    display: $flex;
     flex-flow: column nowrap;
     align-items: center;
     
@@ -100,7 +100,7 @@ h1 {
 }
 
 main {
-    display: $Flex;
+    display: $flex;
     flex-flow: column;
     justify-content: center;
     margin: $rem;
@@ -119,7 +119,7 @@ aside {
 }
 footer{
     ul {
-        display: $Flex;
+        display: $flex;
         justify-content: center;
         height: 4rem;
         background-color: #016690;
