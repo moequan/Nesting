@@ -1,8 +1,8 @@
 // VARIABLES
 
-$Tablet: 768px;
-$Desktop: 1024px;
-$Flex: flex;
+$tablet: 768px;
+$desktop: 1024px;
+$flex: flex;
 $rem: 1rem;
 //MIXIN
 @mixin font {
@@ -20,35 +20,34 @@ $rem: 1rem;
 
 nav { 
     ul {
-    display: $Flex;
-    justify-content: center;
-    align-items: center;
-    height: 4rem;
-}
+        display: $Flex;
+        justify-content: center;
+        align-items: center;
+        height: 4rem;
+        }
 
-li {
-    list-style: none;
-    padding: $rem;
-}
+        li {
+            list-style: none;
+            padding: $rem;
+            }
 
- a {
-    color: #0e749e;
-}
+        a {
+            color: #0e749e;
+        }
 
-a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    @include font;
-}
-}
-
-header {
-    height: 20rem;
+        a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        @include font;
+            }
+        }
+ header {
+    height: 2rem;
     background-image: url(images_website/header.jpg);
     background-size: cover;
     text-align: center;
     padding: 2rem;
-    margin-bottom: $rem;
+    margin-bottom: $rem; 
 }
 
 header {
@@ -124,6 +123,7 @@ footer{
         justify-content: center;
         height: 4rem;
         background-color: #016690;
+       
 }
 
 a {
@@ -192,3 +192,4 @@ a {
         width: 60%;
     }
 }
+ 
